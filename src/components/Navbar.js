@@ -31,7 +31,7 @@ const [showSidebar, setShowSidebar] = useState(false)
   return (
     <>
       <div className='navbar container'>
-        <a href='#!' className='logo'>F<span>oo</span>diesHub</a>
+        <a href='#!' className='logo'>C<span>oo</span>kb<span>oo</span>ks</a>
         <div className='nav-links'>
           {Links.map(link => (
             <Link to={link.path} key={link.name}>{link.name}</Link>
